@@ -1,7 +1,7 @@
 Ski-Resort
 ==========
 
-##Ski Resort - AG44 (Graph theory and applications) project
+###Ski Resort - AG44 (Graph theory and applications) project
 
 ###Author
 
