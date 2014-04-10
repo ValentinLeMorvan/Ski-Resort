@@ -11,9 +11,9 @@ shortestPath = []
 f = open("dataski.txt", 'r')
 strplan = f.readlines()
 
-vertex = ParseVertex(strplan)
-edges = ParseEdges(strplan)
-edges = Weighting(vertex, edges) 
+vertex = ParseVertex(strplan)#Puts the informations about the vertex in the dictionnary
+edges = ParseEdges(strplan) #Puts the informations about the edges in the dictionnary
+edges = Weighting(vertex, edges) # Add the time taken to go through the edge in the dictionnary
 #Datastructure: dict of lists
 #vertex: 0:nb, 1:name, 2:altitude
 #edges: 0:nb, 1:name, 2:type, 3:start, 4:arrival, 5:time
